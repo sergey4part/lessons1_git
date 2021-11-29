@@ -1,3 +1,4 @@
+# function VAT df
 def get_vat(payment, persent=20):
 	try:
 		vat = payment / 100 * persent
